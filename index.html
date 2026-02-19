@@ -598,7 +598,7 @@
               </div>
 
               <h1>
-                Hi, I’m <span style="background:linear-gradient(90deg, var(--accent), var(--accent2)); -webkit-background-clip:text; background-clip:text; color:transparent;">Dipika Das</span>
+                Hi, I’m <span style="background:linear-gradient(90deg, var(--accent), var(--accent2)); -webkit-background-clip:text; background-clip:text; color:transparent;">Student Name</span>
                 <br/>
                 <span style="color:rgba(255,255,255,.78); font-weight:800;">Building with Python & Machine Learning</span>
               </h1>
@@ -614,7 +614,7 @@
                 I completed a hands-on AI/ML workshop and built real projects using Python, EDA, and Linear Regression.
                 <br/><br/>
                 <span style="color:rgba(255,255,255,.82); font-weight:750;">Mentored by:</span>
-                <span style="color:rgba(255,255,255,.85); font-weight:850;">Dipika Das</span> (AI Developer & Tutor) — helped me build these projects and learn the core concepts.
+                <span style="color:rgba(255,255,255,.85); font-weight:850;">SK Sahil</span> (AI Developer & Tutor) — helped me build these projects and learn the core concepts.
               </p>
 
               <div class="heroBtns">
@@ -960,14 +960,14 @@
               I also want to learn more about automation and LLM applications.
             </p>
             <div class="contactLinks">
-              <a class="btn small primary" id="emailBtn" href="mailto:student@email.com">
+              <a class="btn small primary" id="emailBtn" href="mailto:dipikadas6979@email.com">
                 <i class="fa-solid fa-envelope"></i> Email Me
               </a>
-              <a class="btn small ghost" id="linkedinBtn" href="#" target="_blank" rel="noopener">
+              <a class="btn small ghost" id="linkedinBtn" href="https://www.linkedin.com/in/dipika-das-83895a397/" target="_blank" rel="noopener">
                 <i class="fa-brands fa-linkedin"></i> LinkedIn
               </a>
-              <a class="btn small ghost" href="https://www.instagram.com/code_scholar_eu/" target="_blank" rel="noopener">
-                <i class="fa-brands fa-instagram"></i> Code_ScholarEU
+              <a class="btn small ghost" href="https://www.instagram.com/dip_ika9857?igsh=MThlYXBzbzFvMzNxaw==" target="_blank" rel="noopener">
+                <i class="fa-brands fa-instagram"></i> Dipika Das
               </a>
             </div>
           </div>
@@ -1012,13 +1012,13 @@
      * EDIT THESE LINKS *
      ********************/
     const LINKS = {
-      githubProfile: "https://github.com/dipikadas6979", // <-- replace
-      linkedin: "https://www.linkedin.com/in/dipika-das-83895a397/",   // <-- replace (or remove)
+      githubProfile: "https://github.com/your-username", // <-- replace
+      linkedin: "https://linkedin.com/in/your-profile",   // <-- replace (or remove)
       project1Repo: "https://github.com/dipikadas6979/Ardent_AI_ML_Training/tree/main/project1", // <-- replace
-      project2Repo: "https://github.com/dipikadas6979/Ardent_AI_ML_Training/tree/main/project%202", // <-- replace
-      project1Notebook: "", // <-- add Colab/GitHub notebook link
+      project2Repo: "https://github.com/your-username/AI-ML-Workshop-2025", // <-- replace
+      project1Notebook: "https://github.com/dipikadas6979/Ardent_AI_ML_Training/blob/main/project1/Project_1_(EDA).ipynb", // <-- add Colab/GitHub notebook link
       project2Notebook: "https://github.com/dipikadas6979/Ardent_AI_ML_Training/blob/main/project%202/day_2.ipynb", // <-- add Colab/GitHub notebook link
-      email: "dipika6979@gmail.com" // <-- replace
+      email: "dipikadas6979@email.com" // <-- replace
     };
 
     // Apply links
@@ -1198,14 +1198,14 @@
     /********************
      * Quick personalization helpers (optional)
      ********************/
-    // Change "Student Name" quickly from query string: ?name=rahul%20Das
-    // Change GitHub quickly: ?github=https://github.com/dipikadas
+    // Change "Student Name" quickly from query string: ?name=Rahul%20Das
+    // Change GitHub quickly: ?github=https://github.com/rahuldas
     const params = new URLSearchParams(location.search);
-    const name = params.get("Dipika Das");
-    const github = params.get("https://github.com/dipikadas6979/portfoilo/edit/main/index.html");
+    const name = params.get("name");
+    const github = params.get("github");
     if(name){
       document.querySelectorAll("h1 span").forEach(sp=>{
-        if(sp.textContent.trim() === "Dipika Das") sp.textContent = name;
+        if(sp.textContent.trim() === "Student Name") sp.textContent = name;
       });
     }
     if(github){
